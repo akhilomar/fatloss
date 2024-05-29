@@ -185,22 +185,22 @@ export default function Home() {
         infoList={[
           {
             title: 'Hotline',
-            subTitle: '123-456-7890',
+            subTitle: '9898989898',
             iconUrl: '/images/contact/icon_1.svg',
           },
           {
             title: 'Ambulance',
-            subTitle: '876-256-876',
+            subTitle: '876256876',
             iconUrl: '/images/icons/ambulance.svg',
           },
           {
             title: 'Location',
-            subTitle: 'New York, US',
+            subTitle: 'Pune, IN',
             iconUrl: '/images/icons/pin.svg',
           },
         ]}
         btnText="Book Now"
-        btnUrl="/appointments"
+        btnUrl="/"
       />
       {/* Start Feature Section */}
       <Section
