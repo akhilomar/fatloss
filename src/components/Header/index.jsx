@@ -45,9 +45,9 @@ export default function Header({ logoSrc, variant }) {
                       mobileToggle ? 'cs_nav_list cs_active' : 'cs_nav_list'
                     }`}
                   >
-                    <li className="menu-item-has-children">
+                    <li>
                       <Link to="/">Home</Link>
-                      <DropDown>
+                      {/* <DropDown>
                         <ul>
                           <li>
                             <Link to="/">Home Version-1</Link>
@@ -65,7 +65,7 @@ export default function Header({ logoSrc, variant }) {
                             <Link to="/home-v5">Home Version-5</Link>
                           </li>
                         </ul>
-                      </DropDown>
+                      </DropDown> */}
                     </li>
                     <li>
                       <Link to="/about">About</Link>
@@ -76,7 +76,7 @@ export default function Header({ logoSrc, variant }) {
                     <li>
                       <Link to="/blog">Blog</Link>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/* <li className="menu-item-has-children">
                       <Link to="/">Pages</Link>
                       <DropDown>
                         <ul>
@@ -110,7 +110,7 @@ export default function Header({ logoSrc, variant }) {
                           </li>
                         </ul>
                       </DropDown>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/contact">Contact</Link>
                     </li>
@@ -129,7 +129,7 @@ export default function Header({ logoSrc, variant }) {
               </div>
               <div className="cs_main_header_right">
                 <div className="cs_toolbox">
-                  <button
+                  {/* <button
                     className="cs_toolbox_btn cs_search_toggle_btn"
                     type="button"
                     onClick={() => setSearchToggle(!searchToggle)}
@@ -146,7 +146,7 @@ export default function Header({ logoSrc, variant }) {
                         fill="currentColor"
                       />
                     </svg>
-                  </button>
+                  </button> */}
                   <button
                     className="cs_toolbox_btn cs_sidebar_toggle_btn"
                     type="button"
